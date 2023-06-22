@@ -1,9 +1,11 @@
 /*  your css code here. If applicable */
-box::before{
+.box::before{
 	content:"Before Element";
 	color:red;
+	font-size:20px;
 }
-box::after{
+.box::after{
 	color:red;
 	content:"After Element";
+	font-size:20px;
 }
